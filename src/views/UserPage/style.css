@@ -1,0 +1,169 @@
+.my-page-top{padding: 40px 120px;}
+
+.my-page-top-container{
+     display: flex;
+     align-items: center;
+}
+
+.my-page-top-profile-box{
+     width: 120px;
+     height: 120px;
+}
+
+.my-page-top-profile{
+     width: 100%;
+     height: 100%;
+
+     background-size: 100% 100%;
+     background-position: 50% 50%;
+     border-radius: 50%;
+
+     transition: all 0.3s;
+}
+
+.my-page-top-profile:hover{
+     cursor: pointer;
+     opacity: 0.8;
+}
+
+.my-page-top-info-box{margin-left: 10px;}
+
+.my-page-info-nickname-container{
+     margin-bottom: 10px;
+
+     display: flex;
+}
+
+.my-page-info-nickname{
+     margin-right: 10px;
+
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 100%;
+     color: rgba(0, 0, 0, 0.7);
+}
+
+.my-page-info-nickname-input{
+     padding: 0;
+     margin-right: 10px;
+
+     font-family: 'Pretendard-Regular';
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 100%;
+     color: rgba(0, 0, 0, 0.7);
+
+     border: none;
+     background: none;
+     outline: none;
+}
+
+.my-page-info-nickname-button{
+     width: 24px;
+     height: 24px;
+
+     border-radius: 24px;
+
+     transition: all 0.3s;
+}
+
+.my-page-info-nickname-button:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.my-page-edit-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/write_icon.png);
+     background-size: 100% 100%;
+     background-position: 50% 50%;
+}
+
+.my-page-info-email{
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 100%;
+     color: rgba(0, 0, 0, 0.4);
+}
+
+.my-page-bottom{
+     padding: 40px 8.333333vw;
+
+     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.my-page-bottom-text{
+     margin-bottom: 20px;
+
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 100%;
+     color: #000000;
+}
+
+.my-page-bottom-text-emphasis{
+     font-weight: 700;
+}
+
+.my-page-bottom-container{
+     margin-bottom: 40px;
+     display: flex;
+}
+
+.my-page-bottom-board-list{
+     flex: 8;
+}
+
+.my-page-bottom-board-list-nothing{
+     flex: 8;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 100%;
+     color: rgba(0, 0, 0, 0.4);
+}
+
+.my-page-bottom-write-box{
+     margin-left: 24px;
+
+     flex: 4;
+}
+
+.user-page-bottom-button{
+     height: 76px;
+
+     background-color: #ffffff;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     transition: all 0.3s;
+}
+
+.user-page-bottom-button:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.03);
+}
+
+.user-page-bottom-button-text{
+     margin: 0px 6px;
+     
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.user-page-right-arrow-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/arrow_right.png);
+     background-position: center;
+     background-size: cover;
+}

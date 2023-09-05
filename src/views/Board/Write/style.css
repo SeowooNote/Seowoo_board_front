@@ -1,0 +1,127 @@
+#board-write-wrapper{
+     padding: 0px 153px;
+
+     border-top: 1px solid rgba(0, 0, 0, 0.02);
+     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.board-write-container{
+     padding: 100px 24px;
+
+     background-color: #ffffff;
+}
+
+.board-write-title-container{
+     margin-bottom: 20px;
+}
+
+.board-write-title-input{
+     display: block;
+     width: 100%;
+
+     border: none;
+     outline: none;
+     background-color: none;
+
+     font-size: 32px;
+     font-weight: 500;
+     line-height: 100%;
+}
+
+.board-write-content-container{
+     margin-top: 40px;
+
+     display: flex;
+}
+
+.board-write-content-input-box{flex: 1;}
+
+.board-write-content-textarea{
+     display: block;
+
+     width: 100%;
+
+     border: none;
+     outline: none;
+     background-color: none;
+     resize: none;
+
+     overflow: hidden;
+
+     font-size: 18px;
+     font-weight: 500;
+     color: rgba(0, 0, 0, 0.7);
+}
+
+.board-write-content-button-box{margin-left: 16px;}
+
+.image-upload-button{
+     width: 24px;
+     height: 24px;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     border-radius: 6px;
+
+     transition: all 0.3s;
+}
+
+.image-upload-button:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.08);
+}
+
+.image-upload-icon{
+     width: 21px;
+     height: 21px;
+
+     background-image: url(./asset/img_box.png);
+     background-position: center;
+     background-size: cover;
+}
+
+.board-write-image-container{
+     margin-top: 20px;
+     position: relative
+}
+
+.board-write-image{
+     display: block;
+
+     width: 100%;
+}
+
+.board-write-image-delete-button{
+     width: 24px;
+     height: 24px;
+
+     position: absolute;
+     top: 20px;
+     right: 20px;
+
+     border-radius: 12px;
+
+     transition: all 0.3s;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.board-write-image-delete-button:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+.image-close-icon{
+     width: 21px;
+     height: 21px;
+
+     background-image: url(./asset/close_square.png);
+     background-position: 50% 50%;
+     background-size: 100% 100%;
+}
+

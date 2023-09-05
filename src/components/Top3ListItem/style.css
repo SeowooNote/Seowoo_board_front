@@ -1,0 +1,88 @@
+.top3-list-item-box{
+     padding: 1.666666vw;
+
+     width: 23.333333vw;
+     height: 31.944444vw;
+
+     border-radius: 10px;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: cover;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+
+     transition: all 0.3s;
+}
+
+.top3-list-item-box:hover{
+     cursor: pointer;
+     opacity: 0.9;
+}
+
+/* 게시글 작성자 정보 영역 */
+.top3-list-item-writer{display: flex;}
+
+.top3-list-item-profile{
+     width: 36px;
+     height: 36px;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.top3-list-item-profile-image{
+     width: 32px;
+     height: 32px;
+     
+     border-radius: 32px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.top3-list-item-writer-right{
+     margin-left: 8px;
+
+     font-size: 12px;
+}
+
+.top3-list-item-writer-nickname{
+     margin-bottom: 2px;
+
+     color: #ffffff;
+     font-weight: 500;
+}
+
+.top3-list-item-write-date{
+     color: rgba(255, 255, 255, 0.70);
+     font-weight: 400;
+}
+
+
+/* 게시글 영역 */
+.top3-list-item-title{
+     margin-top: 16px;
+
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.top3-list-item-content{
+     margin-top: 5px;
+
+     color: rgba(255, 255, 255, 0.70);
+     font-size: 12px;
+     font-weight: 400;
+}
+
+.top3-list-item-count{
+     margin-top: 16px;
+
+     color: rgba(255, 255, 255, 0.70);
+     font-size: 12px;
+     font-weight: 400;
+}

@@ -1,0 +1,92 @@
+.input-box{margin-top: 40px;}
+
+.input-box-label{
+     font-size: 14px;
+     font-weight: 400;
+     opacity: 0.70;
+}
+
+.input-box-container{
+     margin: 5px 0px;
+
+     height: 46px;
+
+     border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+
+     display: flex;
+     align-items: center;
+}
+
+.input-box-container-err{
+     margin: 5px 0px;
+
+     height: 46px;
+
+     background-color: #fafafa;
+     border-bottom: 1px solid rgba(255, 0, 0, 0.7);
+
+     display: flex;
+     align-items: center;
+}
+
+.input{
+     border: none;
+     outline: none;
+     background-color: transparent;
+
+     font-size: 14px;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 0.70);
+
+     flex: 1;
+}
+
+.input-box-icon{
+     margin-right: 16px;
+
+     border-radius: 50%;
+
+     width: 24px;
+     height: 24px; 
+
+     transition: all 0.3s;
+}
+
+.input-box-icon:hover{
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.input-on-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/eye_on.png);
+     background-position: 50% 50%;
+     background-size: 100% 100%;
+}
+
+.input-off-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/eye_off.png);
+     background-position: center;
+     background-size: cover;
+}
+
+.input-right-arrow-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/right_arrow.png);
+     background-position: center;
+     background-size: cover;
+}
+
+.input-box-helper{
+     font-size: 10px;
+     font-weight: 400;
+     color: rgba(255, 0, 0, 0.7);
+}
+

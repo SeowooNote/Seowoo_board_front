@@ -1,0 +1,90 @@
+#footer-box{
+     padding: 40px 8.333333vw 50px;
+
+     background-color: #373737;
+}
+
+.footer-top{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.footer-top-left{
+     display: flex;
+     align-items: center;
+}
+
+.footer-logo-icon{
+     margin-right: 10px;
+
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/edit_fill.png);
+     background-position: center;
+     background-size: cover;
+}
+
+.footer-logo-text{
+     font-family: 'GimhaeGaya';
+     font-size: 20px;
+     font-weight: 400;
+     letter-spacing: 0.4px;
+     color: #ffffff;
+}
+
+.footer-top-right{
+     display: flex;
+     align-items: center;
+}
+
+.footer-email{
+     font-family: 'Inter', sans-serif;
+     font-size: 12px;
+     font-weight: 400;
+     color: #ffffff;
+}
+
+.footer-icon-button{
+     margin-left: 20px;
+
+     border-radius: 5px;
+
+     width: 24px;
+     height: 24px;
+
+     transition: all 0.3s;
+}
+
+.footer-icon-button:hover{
+     cursor: pointer;
+     background-color: rgba(80, 80, 80, 0.9);
+}
+
+.footer-insta-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/insta.png);
+     background-position: center;
+     background-size: cover;
+}
+
+.footer-blog-icon{
+     width: 24px;
+     height: 24px;
+
+     background-image: url(./asset/blog.png);
+     background-position: center;
+     background-size: cover;
+}
+
+.footer-bottom{
+     margin-top: 20px;
+
+     font-family: 'Inter', sans-serif;
+     font-size: 12px;
+     font-weight: 400;
+     color: #ffffff;
+}
